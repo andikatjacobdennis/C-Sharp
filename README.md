@@ -37,7 +37,8 @@
 * Call By Value
 * Call By Reference
 * Out Parameter
-
+* Extension Methods
+* 
 ## Arrays
 
 * Arrays
@@ -233,6 +234,11 @@ C# Reflection
 ## GDI
 
 * GDI
+
+## Web Programming
+
+* Socket
+* HTTP
 
 ## New Features
 
