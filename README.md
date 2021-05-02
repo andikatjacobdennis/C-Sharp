@@ -14,6 +14,7 @@
 * Debug vs Trace
 * x86 vs x64
 * Garbage collection
+* Visual Studio Shortcuts
 
 ## C# Tutorial
 
