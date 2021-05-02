@@ -13,6 +13,7 @@
 * bin and obj folders
 * Debug vs Trace
 * x86 vs x64
+* Garbage collection
 
 ## C# Tutorial
 
