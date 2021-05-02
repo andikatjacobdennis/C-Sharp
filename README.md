@@ -309,9 +309,14 @@ C# Reflection
 * Socket Asynchronous
 * HTTP Status codes
 * HTTP client
-* ASP MVC Web API
-* Hosting ASP MVC 5 using IIS
-* Hosting ASP MVC 5 using Owin
+* ASP MVC HTTP Web API
+* Hosting HTTP ASP MVC 5 using IIS
+* Hosting HTTP ASP MVC 5 using Owin
+* HTTP vs HTTPS
+* HTTPS client
+* ASP MVC HTTPS Web API
+* Hosting HTTPS ASP MVC 5 using IIS
+* Hosting HTTPS ASP MVC 5 using Owin
 
 ## Forms
 
