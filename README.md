@@ -386,3 +386,4 @@ C# Reflection
 * Alphabet Triangle
 * Number Triangle
 * Fibonacci Triangle
+* Lexographic
