@@ -411,6 +411,28 @@ C# Reflection
 * Stackalloc in nested expressions
 * Enhancement of interpolated verbatim strings
 
+### C# 9.0
+
+* Records
+* Init only setters
+* Top-level statements
+* Pattern matching enhancements
+* Performance and interop
+ * Native sized integers
+ * Function pointers
+ * Suppress emitting localsinit flag
+* Fit and finish features
+ * Target-typed new expressions
+ * static anonymous functions
+ * Target-typed conditional expressions
+ * Covariant return types
+ * Extension GetEnumerator support for foreach loops
+ * Lambda discard parameters
+ * Attributes on local functions
+* Support for code generators
+ * Module initializers
+ * New features for partial methods
+
 ## C# Programs List
 
 * Fibonacci Series
