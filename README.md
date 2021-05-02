@@ -176,6 +176,8 @@
 * String TrimEnd()
 * String TrimStart()
 * String Formatting
+* Date formatting
+* string to date
 * Regular Expression
 * Convert.ToString vs toString()
 * string vs stringbuilder
