@@ -56,6 +56,7 @@
 * Dispose
 * Finalize
 * this
+* base
 * static
 * static class
 * static constructor
