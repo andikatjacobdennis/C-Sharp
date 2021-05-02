@@ -4,20 +4,35 @@
 
 * .NET Framework
 * CLR
+* Managed vs Unmanaged Code
 * FCL
+* CLI
+* CIL
+* MSIL
+* C# compilation process and example
+* bin and obj folders
+* Debug vs Trace
 
 ## C# Tutorial
 
 * Comments
+* XML documentation tags
 * Variables
 * Data Types
+* Nullable Types
 * Enum
 * Flag Enum
 * Operators
+* Operator Presidence
 * Keywords
 * Preprocessor Directives
 * Boxing Unboxing
 * Indexers
+* Convert vs IntParse
+* TryParse
+* == vs Equals
+* constant vs readonly
+* checked vs unchecked
 
 ## Control Statements
 
@@ -38,7 +53,7 @@
 * Call By Reference
 * Out Parameter
 * Extension Methods
-* 
+
 ## Arrays
 
 * Arrays
@@ -48,11 +63,13 @@
 * Params
 * Array class
 * Command Line Args
+* System.Array.CopyTo vs System.Array.Clone
 
 ## Objects and Classes
 
 * Object and Class
 * Constructor
+* Constructor Chaining
 * Destructor
 * Dispose
 * Finalize
@@ -61,8 +78,11 @@
 * static
 * static class
 * static constructor
-* Structs
-* Enum
+* struct
+* enum
+* When to use class or struct
+* Can private constructor be inherited and what is the use
+* Nested class and how to use it
 
 ## Properties
 
@@ -72,6 +92,9 @@
 
 * Inheritance
 * Aggregation
+* virtual
+* override
+* new
 
 ## Polymorphism
 
@@ -85,6 +108,8 @@
 
 * Interface
 * Abstract
+* Interface vs Abstract and when to use it
+* Multiple inheritance in C#
 
 ## Namespace
 
@@ -95,6 +120,7 @@
 ## Strings
 
 * Strings
+* Why string immutable with example
 
 ## String Functions
 
@@ -140,7 +166,10 @@
 * String Trim()
 * String TrimEnd()
 * String TrimStart()
+* String Formatting
 * Regular Expression
+* Convert.ToString vs toString()
+* string vs stringbuilder
 
 ## Exceptions
 
@@ -172,6 +201,8 @@
 ## Collections
 
 * Collections
+* IEnumerable
+* IQueriable
 * List<T>
 * HashSet<T>
 * SortedSet<T>
@@ -184,7 +215,9 @@
 * Array List
 * Conqurrent List
 * Conquerent queue
+* Conquerent Dictionary
 * Tuple
+* Observable Collection
 
 ## Generics
 
@@ -193,7 +226,15 @@
 ## Delegates
 
 * Delegates
+* Multicast Delegate
+* Lambda
+* Action
+* Function
+* Predicate
 * Events
+* Delegate vs events
+* Event Args
+* 
 
 ## Linq
 
@@ -222,23 +263,44 @@ C# Reflection
 * ThreadPriority
 * Task
 * Async Await
-
-## Synchronization
-
-* Synchronization
+* Thread Synchronization(lock, monitor, semaphore, mutex)
+* Semaphore
+* Waitone
+* Yield
+* Appdomain
+* Process
+* Interprocess communication
+* Cancellation Token
+* Autoreset Event
+* Manual reset event
+* Volatile
 
 ## Unsafe
 
 * Unsafe Code
+* Loading DLL from C++
+* PInvoke
 
-## GDI
+# Serialization
 
-* GDI
+* Serialization Types
+* Shallow clone vs Deep clone with example
+
+# GAC
+
+* GAC
 
 ## Web Programming
 
-* Socket
+* Socket Synchronous
+* Socket Asynchronous
 * HTTP
+
+## Forms
+
+* GDI
+* Folder browser Dialog
+* Open File Dialog
 
 ## New Features
 
