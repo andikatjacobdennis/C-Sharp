@@ -35,6 +35,8 @@
 * == vs Equals
 * constant vs readonly
 * checked vs unchecked
+* Is and As operator
+* Nullable<> Types
 
 ## Control Statements
 
@@ -372,6 +374,42 @@ C# Reflection
 
 * Async main
 * Default expressions
+
+### C# 7.2
+
+* Techniques for writing safe efficient code
+* Non-trailing named arguments
+* Leading underscores in numeric literals
+* private protected access modifier
+* Conditional ref expressions
+
+### C# 7.3
+
+* You can access fixed fields without pinning.
+* You can reassign ref local variables.
+* You can use initializers on stackalloc arrays.
+* You can use fixed statements with any type that supports a pattern.
+* You can use additional generic constraints.
+
+### C# 8.0
+
+* Readonly members
+* Default interface methods
+* Pattern matching enhancements:
+  * Switch expressions
+  * Property patterns
+  * Tuple patterns
+  * Positional patterns
+* Using declarations
+* Static local functions
+* Disposable ref structs
+* Nullable reference types
+* Asynchronous streams
+* Indices and ranges
+* Null-coalescing assignment
+* Unmanaged constructed types
+* Stackalloc in nested expressions
+* Enhancement of interpolated verbatim strings
 
 ## C# Programs List
 
