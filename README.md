@@ -299,7 +299,8 @@ C# Reflection
 
 * Socket Synchronous
 * Socket Asynchronous
-* HTTP
+* HTTP client
+* ASP MVC Web API
 
 ## Forms
 
@@ -307,9 +308,9 @@ C# Reflection
 * Folder browser Dialog
 * Open File Dialog
 
-## Cryptography Model
+## Security
 
-* Cryptography
+* Cryptography Model
 
 ## New Features
 
