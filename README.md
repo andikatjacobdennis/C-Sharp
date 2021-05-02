@@ -14,9 +14,10 @@
 * Debug vs Trace
 * x86 vs x64
 * Garbage collection
-* Visual Studio Shortcuts
 * Compiler Options
 * GAC
+* Visual Studio Shortcuts
+* Debugging Techniques
 
 ## C# Tutorial
 
@@ -191,25 +192,6 @@
 * checked unchecked
 * SystemException
 
-## C# I/O
-
-* FileStream
-* StreamWriter
-* StreamReader
-* TextWriter
-* TextReader
-* BinaryWriter
-* BinaryReader
-* StringWriter
-* StringReader
-* FileInfo
-* DirectoryInfo
-* Serialization
-* Deserialization
-* System.IO
-* Console I/O
-* XML
-
 ## Collections
 
 * Collections
@@ -286,11 +268,35 @@ C# Reflection
 * Manual reset event
 * Volatile
 
+## C# I/O
+
+* FileStream
+* StreamWriter
+* StreamReader
+* TextWriter
+* TextReader
+* BinaryWriter
+* BinaryReader
+* StringWriter
+* StringReader
+* FileInfo
+* DirectoryInfo
+* Serialization
+* Deserialization
+* System.IO
+* Console I/O
+
+## Database
+
+* XML
+* ADO
+* Entity Framework
+
 ## Unsafe
 
 * Unsafe Code
 * Loading DLL from C++
-* PInvoke
+* Pinvoke
 
 ## Serialization
 
@@ -301,13 +307,15 @@ C# Reflection
 
 * Socket Synchronous
 * Socket Asynchronous
+* HTTP Status codes
 * HTTP client
 * ASP MVC Web API
-* HTTP Status codes
+* Hosting ASP MVC 5 using IIS
+* Hosting ASP MVC 5 using Owin
 
 ## Forms
 
-* GDI
+* GDI+
 * Folder browser Dialog
 * Open File Dialog
 
