@@ -79,6 +79,7 @@
 * Object and Class
 * Constructor
 * Constructor Chaining
+* Can private constructor be inherited and what is the use
 * Destructor
 * Dispose
 * Finalize
@@ -90,7 +91,6 @@
 * struct
 * enum
 * When to use class or struct
-* Can private constructor be inherited and what is the use
 * Nested class and how to use it
 
 ## Properties
