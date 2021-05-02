@@ -307,6 +307,7 @@ C# Reflection
 
 * Socket Synchronous
 * Socket Asynchronous
+* SOAP Web Services
 * HTTP Status codes
 * HTTP client
 * ASP MVC HTTP Web API
