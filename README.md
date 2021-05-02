@@ -15,6 +15,8 @@
 * x86 vs x64
 * Garbage collection
 * Visual Studio Shortcuts
+* Compiler Options
+* GAC
 
 ## C# Tutorial
 
@@ -38,6 +40,7 @@
 * checked vs unchecked
 * Is and As operator
 * Nullable<> Types
+* Attributes & there properties
 
 ## Control Statements
 
@@ -58,6 +61,7 @@
 * Call By Reference
 * Out Parameter
 * Extension Methods
+* Random Method
 
 ## Arrays
 
@@ -202,6 +206,7 @@
 * Deserialization
 * System.IO
 * Console I/O
+* XML
 
 ## Collections
 
@@ -239,7 +244,6 @@
 * Events
 * Delegate vs events
 * Event Args
-* 
 
 ## Linq
 
@@ -291,10 +295,6 @@ C# Reflection
 * Serialization Types
 * Shallow clone vs Deep clone with example
 
-# GAC
-
-* GAC
-
 ## Web Programming
 
 * Socket Synchronous
@@ -306,6 +306,10 @@ C# Reflection
 * GDI
 * Folder browser Dialog
 * Open File Dialog
+
+## Cryptography Model
+
+* Cryptography
 
 ## New Features
 
@@ -450,3 +454,4 @@ C# Reflection
 * Number Triangle
 * Fibonacci Triangle
 * Lexographic
+* Display Console output to form
