@@ -12,6 +12,7 @@
 * C# compilation process and example
 * bin and obj folders
 * Debug vs Trace
+* x86 vs x64
 
 ## C# Tutorial
 
