@@ -8,4 +8,5 @@ The Class Library provides a set of APIs and types for common functionality. It 
 
 * When an app runs, the CLR takes the assembly and uses a just-in-time compiler (JIT) to turn it into machine code that can execute on the specific architecture of the computer it is running on.
 
-Resources/swimlane-architecture-framework.svg
+<img src="Resources/swimlane-architecture-framework.svg" alt="triangle with equal sides" srcset="equilateral.svg">
+
