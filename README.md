@@ -268,6 +268,11 @@ C# Reflection
 * Manual reset event
 * Volatile
 
+## Timers
+
+* System.Timers
+* Comparing the Timer Classes in the .NET Framework Class Library
+
 ## C# I/O
 
 * FileStream
