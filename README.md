@@ -3,7 +3,7 @@
 ## .Net Framework
 
 * [Architecture of .NET Framework](Architecture_of_.NET_Framework.md)
-* CLR
+* [CLR](CLR.md)
 * Managed vs Unmanaged Code
 * FCL
 * CLI
