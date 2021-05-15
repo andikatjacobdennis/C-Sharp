@@ -4,7 +4,9 @@
 
 * [Architecture of .NET Framework](Architecture_of_.NET_Framework.md)
 * [CLR](CLR.md)
+* Managed Code
 * Managed vs Unmanaged Code
+* Metadata
 * FCL
 * CLI
 * CIL
@@ -286,7 +288,7 @@ C# Reflection
 * StringReader
 * FileInfo
 * DirectoryInfo
-* Path
+* File path formats on Windows systems
 * Serialization
 * Deserialization
 * System.IO
