@@ -480,4 +480,5 @@ C# Reflection
 * Number Triangle
 * Fibonacci Triangle
 * Lexographic
+* Use shift left to do a modulus 2 operation
 * Display Console output to form
