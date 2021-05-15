@@ -286,6 +286,7 @@ C# Reflection
 * StringReader
 * FileInfo
 * DirectoryInfo
+* Path
 * Serialization
 * Deserialization
 * System.IO
