@@ -7,5 +7,5 @@ Managed code benefits from features such as
 * **cross-language integration**
 * **cross-language exception handling**
 * enhanced **security**
-* **versioning** and **deployment** support
 * **debugging** and **profiling** services.
+* **versioning** and **deployment** support
