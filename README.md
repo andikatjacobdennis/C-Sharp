@@ -13,6 +13,7 @@
 * MSIL
 * C# compilation process and example
 * bin and obj folders
+* Understanding Assembly, Exe and DLL
 * Debug vs Trace
 * x86 vs x64
 * Garbage collection
