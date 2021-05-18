@@ -20,6 +20,7 @@
 * Compiler Options
 * GAC
 * Visual Studio Shortcuts
+* CSC
 * Debugging Techniques
 
 ## C# Tutorial
