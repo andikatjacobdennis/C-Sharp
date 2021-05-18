@@ -11,6 +11,7 @@
 * CLI
 * CIL
 * MSIL
+* CSC
 * C# compilation process and example
 * bin and obj folders
 * Understanding Assembly, Exe and DLL
@@ -20,7 +21,6 @@
 * Compiler Options
 * GAC
 * Visual Studio Shortcuts
-* CSC
 * Debugging Techniques
 
 ## C# Tutorial
