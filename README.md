@@ -6,7 +6,7 @@
 * [CLR](CLR.md)
 * [Managed Code](Managed_Code.md)
 * [Managed vs Unmanaged Code](Managed_vs_Unmanaged_Code.md)
-* Metadata
+* [Assembly Metadata](Assembly_Metadata.md)
 * FCL
 * CLI
 * CIL
