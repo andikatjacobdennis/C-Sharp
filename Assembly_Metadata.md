@@ -1,6 +1,6 @@
-# Metadata
+# Assembly Metadata
 
-Metadata contains information about assemblies like
+Assembly Metadata contains information about assemblies like
 
 * Assembly name
 * Version number
