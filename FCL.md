@@ -1,4 +1,4 @@
-* .NET Framework Class Library
+# .NET Framework Class Library
 
 | Namespaces      | Description |
 | ----------- | ----------- |
