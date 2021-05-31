@@ -1,6 +1,6 @@
 * .NET Framework Class Library
 
-| Syntax      | Description |
+| Namespaces      | Description |
 | ----------- | ----------- |
 System |	It includes all common datatypes, string values, arrays and methods for data conversion.
 System.Data, System.Data.Common, System.Data.OleDb, System.Data.SqlClient, System.Data.SqlTypes |	These are used to access a database, perform commands on a database and retrieve database.
