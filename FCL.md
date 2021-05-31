@@ -10,5 +10,5 @@
 **System.Windows.Forms**, System.Windows.Forms.Design | These namespaces are used to create Windows-based applications using Windows user interface components.
 System.Web, System.WebCaching, System.Web.UI, System.Web.UI.Design, System.Web.UI.WebControls, System.Web.UI.HtmlControls, System.Web.Configuration, System.Web.Hosting, System.Web.Mail, System.Web.SessionState | These are used to create ASP. NET Web applications that run over the web.
 System.Web.Services, System.Web.Services.Description, System.Web.Services.Configuration, System.Web.Services.Discovery, System.Web.Services.Protocols | These are used to create XML Web services and components that can be published over the web.
-System.Security, System.Security.Permissions, System.Security.Policy, System.WebSecurity, System.Security.Cryptography | These are used for authentication, authorization, and encryption purpose.
-System.Xml, System.Xml.Schema, System.Xml.Serialization, System.Xml.XPath, System.Xml.Xsl | These namespaces are used to create and access XML files.
+**System.Security**, System.Security.Permissions, System.Security.Policy, System.WebSecurity, System.Security.Cryptography | These are used for authentication, authorization, and encryption purpose.
+**System.Xml**, System.Xml.Schema, System.Xml.Serialization, System.Xml.XPath, System.Xml.Xsl | These namespaces are used to create and access XML files.
