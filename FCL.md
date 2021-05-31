@@ -2,8 +2,8 @@
 
 | Namespaces      | Description |
 | ----------- | ----------- |
-System |	It includes all common datatypes, string values, arrays and methods for data conversion.
-System.Data, System.Data.Common, System.Data.OleDb, System.Data.SqlClient, System.Data.SqlTypes |	These are used to access a database, perform commands on a database and retrieve database.
+**System** |	It includes all common datatypes, string values, arrays and methods for data conversion.
+**System.Data**, System.Data.Common, System.Data.OleDb, **System.Data.SqlClient**, System.Data.SqlTypes |	These are used to access a database, perform commands on a database and retrieve database.
 System.IO, System.DirectoryServices, System.IO.IsolatedStorage | These are used to access, read and write files.
 System.Diagnostics |	It is used to debug and trace the execution of an application.
 System.Net, System.Net.Sockets | These are used to communicate over the Internet when creating peer-to-peer applications.
