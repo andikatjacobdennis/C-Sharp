@@ -37,5 +37,7 @@ language, then the data types of fist language are first converted into CIL type
 present to the second language as it can be understand by the second language. 
 
 * **BCL** (Base Class Library) 
+* 
   It is deveoped in C# and used by other .NET languages
+  
 * VSE or **CLR**(VirtuaI Execution System or Common Language Runtime)
