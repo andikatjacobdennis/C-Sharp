@@ -11,4 +11,4 @@ This CLI talks about 4 important things in it:
 * CLS (Common Language Specification) 
 * CTS (Common Type System) 
 * BCL (Base Class Library) 
-* VSE or CLR(MrtuaI Execution System or Common Language Runtime)
+* VSE or CLR(VirtuaI Execution System or Common Language Runtime)
