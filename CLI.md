@@ -40,4 +40,4 @@ present to the second language as it can be understand by the second language.
 
   It is deveoped in C# and used by other .NET languages
   
-* VSE or **CLR**(VirtuaI Execution System or Common Language Runtime)
+* VES or **CLR**(VirtuaI Execution System or Common Language Runtime)
