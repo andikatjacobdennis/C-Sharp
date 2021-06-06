@@ -9,7 +9,7 @@
 * [Assembly Metadata](Assembly_Metadata.md)
 * [FCL](FCL.md)
 * [CLI](CLI.md)
-* [CIL](CIL.md)
+* CIL
 * MSIL
 * CSC
 * C# compilation process and example
