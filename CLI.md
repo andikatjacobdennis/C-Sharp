@@ -21,6 +21,20 @@ This CLI talks about 4 important things in it:
   
   C#.Net ----> CSC ----> CIL Code
 
-* **CTS** (Common Type System) 
+* **CTS** (Common Type System)
+
+  * According to the CTS all the .net Language has to adopt "Uniform Data Types 
+Structure", means similar data types must be same in size under the languages of .net. 
+
+  * Now if Wvo .net languages want to communicate with each other then size of data type 
+will not be a problem in development. 
+
+  * Interestingly when we compiled any .net language then the data types of the language 
+also get converted into a same type that is CIL Code type 
+
+  * So when we want to consume the code of one .net language code from other .net 
+language, then the data types of fist language are first converted into CIL type and 
+present to the second language as it can be understand by the second language. 
+
 * **BCL** (Base Class Library) 
 * VSE or **CLR**(VirtuaI Execution System or Common Language Runtime)
