@@ -38,6 +38,10 @@ present to the second language as it can be understand by the second language.
 
 * **BCL** (Base Class Library) 
 
-  It is deveoped in C# and used by other .NET languages
+**  It is deveoped in C# and used by other .NET languages
+  
+**  The Base Class Library (BCL) is literally that, the base. It contains basic, fundamental types like System.String and System.DateTime.
+
+**  The Framework Class Library (FCL) is the wider library that contains the totality: ASP.NET, WinForms, the XML stack, ADO.NET and more. You could say that the FCL includes        the BCL.
   
 * VES or **CLR**(VirtuaI Execution System or Common Language Runtime)
