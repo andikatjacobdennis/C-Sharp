@@ -16,7 +16,9 @@ This CLI talks about 4 important things in it:
   is CIL or MSIL code.
 
   Example: 
+  
   VB.Net ----> VBC ----> CIL Code
+  
   C#.Net ----> CSC ----> CIL Code
 
 * **CTS** (Common Type System) 
