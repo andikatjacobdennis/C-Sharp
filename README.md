@@ -231,6 +231,7 @@
 * Events
 * Delegate vs events
 * Event Args
+* EventHandler
 
 ## Linq
 
