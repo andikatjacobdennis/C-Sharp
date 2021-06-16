@@ -11,7 +11,6 @@
 * [CLI](CLI.md)
 * [IL or CIL or MSIL](IL.md)
 * [CSC](CSC.md)
-* C# compilation process and example
 * bin and obj folders
 * Understanding Assembly, Exe and DLL
 * Debug vs Trace
