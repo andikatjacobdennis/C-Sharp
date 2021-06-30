@@ -4,7 +4,7 @@ When you compile C# programs, you would see 2 folders “bin” and “obj”. I
 
 Both these folders have compiled IL code, but the question is why not just one folder and why two folders?
 
-Image 1
+![Image 1][Resources/bin_and_obj/bin_and_obj_1.jpg]
 We have two folders because the compilation process goes through two steps, compiling and linking. See the below diagram.
 
 In compiling phase, every code file is compiled into individual compiled units. So if you have two code files, two independent compiled codes will be generated.
