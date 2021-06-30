@@ -11,7 +11,7 @@
 * [CLI](CLI.md)
 * [IL or CIL or MSIL](IL.md)
 * [CSC](CSC.md)
-* bin and obj folders
+* [bin and obj folders](bin_and_obj_folders.md)
 * Understanding Assembly, Exe and DLL
 * Debug vs Trace
 * x86 vs x64
