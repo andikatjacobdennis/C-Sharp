@@ -12,7 +12,7 @@
 * [IL or CIL or MSIL](IL.md)
 * [CSC](CSC.md)
 * [bin and obj folders](bin_and_obj_folders.md)
-* Understanding Assembly, Exe and DLL
+* [Understanding Assembly](Understanding_Assembly.md)
 * Debug vs Trace
 * x86 vs x64
 * Garbage collection
