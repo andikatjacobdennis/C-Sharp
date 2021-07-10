@@ -13,7 +13,7 @@
 * [CSC](CSC.md)
 * [bin and obj folders](bin_and_obj_folders.md)
 * [Understanding Assembly](Understanding_Assembly.md)
-* Debug vs Trace
+* [Debug vs Trace](Debug_vs_Trace.md)
 * x86 vs x64
 * Garbage collection
 * Compiler Options
