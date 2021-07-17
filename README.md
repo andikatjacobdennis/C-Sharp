@@ -14,7 +14,7 @@
 * [bin and obj folders](bin_and_obj_folders.md)
 * [Understanding Assembly](Understanding_Assembly.md)
 * [Debug vs Trace](Debug_vs_Trace.md)
-* x86 vs x64
+* [x86 vs x64](x86_vs_x64.md)
 * Garbage collection
 * Compiler Options
 * GAC
