@@ -1,0 +1,17 @@
+# On a 32-bit machine:
+
+* Any CPU: runs as a 32-bit process, can load Any CPU and x86 assemblies, will get BadImageFormatException if it tries to load an x64 assembly.
+
+* x86: same as Any CPU.
+
+* x64: BadImageFormatException always.
+
+# On a 64-bit machine:
+
+* Any CPU: runs as a 64-bit process, can load Any CPU and x64 assemblies, will get BadImageFormatException if it tries to load an x86 assembly.
+
+* x86: runs as a 32-bit process, can load Any CPU and x86 assemblies, will get BadImageFormatException if it tries to load an x64 assembly.
+
+* x64: same as Any CPU.
+
+It is the JIT compiler that generates an assembly code that's compatible with the requested target based on this flag.
