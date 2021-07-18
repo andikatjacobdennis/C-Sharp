@@ -85,6 +85,7 @@
 * Can private constructor be inherited and what is the use
 * Destructor
 * Dispose
+* Disposable Pattern
 * Finalize
 * this
 * base
