@@ -83,7 +83,9 @@ public class Demo {
 Output: 
 The generation number of object obj is: 0 
 
-GC.GetTotalMemory() Method : This method returns the number of bytes that are allocated in the system. It requires a single boolean parameter where true means that the method waits for the occurrence of garbage collection before returning and false means the opposite.
+##GC.GetTotalMemory() Method :
+
+This method returns the number of bytes that are allocated in the system. It requires a single boolean parameter where true means that the method waits for the occurrence of garbage collection before returning and false means the opposite.
 A program that demonstrates the GC.GetTotalMemory() method is given as follows: 
 
 ```csharp
@@ -119,7 +121,7 @@ Garbage collection can be forced in the system using the GC.Collect() method. Th
 
 A program that demonstrates the GC.Collect() Method is given as follows: 
 
-```charp
+```csharp
 using System;
  
 public class Demo {
