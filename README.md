@@ -16,7 +16,6 @@
 * [Debug vs Trace](Debug_vs_Trace.md)
 * [x86 vs x64](x86_vs_x64.md)
 * [Garbage Collection](Garbage_Collection.md)
-* Compiler Options
 * GAC
 * Visual Studio Shortcuts
 * Debugging Techniques
