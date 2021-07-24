@@ -1,7 +1,7 @@
 # Debug vs	Trace
 
  Debug                                               | Trace           
- ----------------------------------------------------|-------------
+:----------------------------------------------------|:-------------
 It uses the Debug class.                             | It uses the Trace class.
 It uses the time of application development.         | It uses the time of application deployment.    
 It works only in debug mode.                         | It works in both case debug and release mode.     
