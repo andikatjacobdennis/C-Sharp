@@ -9,6 +9,8 @@ In debugging there is no such facility to differentiate between message types (I
 
 Example
 
+```csharp
+
 Debug.WriteLine("Debug Start");
 Debug.Indent();            
 Debug.WriteLine("Main Start");          
@@ -18,6 +20,8 @@ Debug.WriteLine("Debug End");
 Debug.Flush();
 Debug.Close();
 
+```
+
 - Trace
 
 It is used to trace the execution of your code in development as well as production environment.
@@ -26,6 +30,8 @@ It works in both solution configuration modes Debug and Release.
 In tracing we can easily differentiate between message types (Information, Error, Warning) using  Trace.TraceInformation, Trace.TraceError and Trace.TraceWarning.
 
 Example
+
+```csharp
 
 Trace.WriteLine("Trace Start");         
 Trace.Indent();
@@ -38,3 +44,5 @@ Trace.Unindent();
 Trace.WriteLine("Trace End");
 Trace.Flush();
 Trace.Close();
+
+```
