@@ -137,3 +137,17 @@ The following example signs the assembly MyAssembly.dll with a strong name by us
 al /out:MyAssembly.dll MyModule.netmodule /keyfile:sgKey.snk  
 
 ```
+ 
+## Sign an assembly with a strong name by using the compiler
+ 
+Compile your source code file or files with the /keyfile or /delaysign compiler option in C# and Visual Basic, or the /KEYFILE or /DELAYSIGN linker option in C++. After the option name, add a colon and the name of the key file. When using command-line compilers, you can copy the key file to the directory that contains your source code files.
+
+For information on delay signing, see Delay-sign an assembly.
+
+The following example uses the C# compiler and signs the assembly UtilityLibrary.dll with a strong name by using the key file sgKey.snk.
+
+```cmd
+ 
+csc /t:library UtilityLibrary.cs /keyfile:sgKey.snk  
+
+ ```
