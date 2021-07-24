@@ -1,6 +1,6 @@
 # Debug vs	Trace
 
- Tables                                              | Are           
+ Debug                                               | Trace           
  ----------------------------------------------------|-------------
 It uses the Debug class.                             | It uses the Trace class.
 It uses the time of application development.         | It uses the time of application deployment.    
