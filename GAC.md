@@ -1,4 +1,7 @@
-it's a way to keep DLLs globally accessible without worrying about conflicts. No more DLL Hell. Each architecture and version gets it's own place to live.
+# Global Assembly Cache
+
+
+It's a way to keep DLLs globally accessible without worrying about conflicts. No more DLL Hell. Each architecture and version gets it's own place to live.
 
 It also gets it own way to browse it in Explorer, so if you go to
 
