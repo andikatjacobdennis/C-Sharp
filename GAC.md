@@ -70,3 +70,14 @@ C:\Windows\assembly\GAC_64\System.Data\2.0.0.0__b77a5c561934e089>
               
 ```
 
+Here you can see version 2.0.0.0__b77a5c561934e089 of System.Data.
+
+A DLL is identified by 5 parts:
+
+Name
+Version
+Architecture
+Culture
+Public Key
+Although the first 3 are generally the big ones.
+
