@@ -134,7 +134,6 @@ The following example signs the assembly MyAssembly.dll with a strong name by us
 
 ```cmd
 
-Copy
 al /out:MyAssembly.dll MyModule.netmodule /keyfile:sgKey.snk  
 
 ```
