@@ -1,11 +1,11 @@
 # Debug vs	Trace
 
-- Debug
+## Debug
 
-It is used to debug your code in development environment only.
-Debugging is the process of finding and fixing errors in your code.
-It works when solution configuration mode is Debug. In Release mode it does not write anything on the output window.
-In debugging there is no such facility to differentiate between message types (Information, Error, Warning).
+* It is used to debug your code in development environment only.
+* Debugging is the process of finding and fixing errors in your code.
+* It works when solution configuration mode is Debug. In Release mode it does not write anything on the output window.
+* In debugging there is no such facility to differentiate between message types (Information, Error, Warning).
 
 Example
 
@@ -22,12 +22,12 @@ Debug.Close();
 
 ```
 
-- Trace
+## Trace
 
-It is used to trace the execution of your code in development as well as production environment.
-Tracing is the process of collecting information about the program’s execution.
-It works in both solution configuration modes Debug and Release.
-In tracing we can easily differentiate between message types (Information, Error, Warning) using  Trace.TraceInformation, Trace.TraceError and Trace.TraceWarning.
+* It is used to trace the execution of your code in development as well as production environment.
+* Tracing is the process of collecting information about the program’s execution.
+* It works in both solution configuration modes Debug and Release.
+* In tracing we can easily differentiate between message types (Information, Error, Warning) using  Trace.TraceInformation, Trace.TraceError and Trace.TraceWarning.
 
 Example
 
