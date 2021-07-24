@@ -5,7 +5,7 @@ It's a way to keep DLLs globally accessible without worrying about conflicts. No
 
 It also gets it own way to browse it in Explorer, so if you go to
 
-```dos
+```cmd
 
 C:\Windows\assembly
 
@@ -15,7 +15,7 @@ In windows explorer it lists all the DLLs.
 
 But if you fire up cmd, you can see how it's really structured:
 
-```dos
+```cmd
 
 C:\Windows\assembly>dir
 
@@ -84,4 +84,35 @@ A DLL is identified by 5 parts:
 * Public Key
 
 Although the first 3 are generally the big ones.
+
+Exe Application, first of all, references from a current directory to a subdirectory. And then, system directory. VS6.0 system directory was ..windows/system32. .NET system directory is like the below GAC path.
+
+GAC path
+
+1) C:\Windows\Assembly (for .NET 2.0 ~ 3.5)
+
+2) C:\Windows\Microsoft.NET\assembly (for .NET 4.0)
+
+How to install an assembly into GAC (as Administrator)
+
+1) Drag and Drop
+
+2) Use GacUtil.exe with Visual Studio Command Prompt
+
+```cmd
+
+ gacutil -i [Path][Assembly Name].dll
+
+```
+
+Note: To install an assembly into the GAC, the assembly must be strongly named. Otherwise you get an error like this: Failure adding assembly to the cache: Attempt to install an assembly without a strong name.
+How to uninstall an assembly from GAC (as Administrator)
+
+```cmd
+
+ gacutil -u [Assembly Name], Version=1.0.0.0, PublickeyToken=7896a3567gh
+
+```
+
+Note: has no extention, .dll. Version and PublickeyToken can be omitted and be checked in GAC assembly.
 
