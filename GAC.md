@@ -93,7 +93,7 @@ GAC path
 
 2) C:\Windows\Microsoft.NET\assembly (for .NET 4.0)
 
-How to install an assembly into GAC (as Administrator)
+## How to install an assembly into GAC (as Administrator)
 
 1) Drag and Drop
 
@@ -116,3 +116,25 @@ How to uninstall an assembly from GAC (as Administrator)
 
 Note: has no extention, .dll. Version and PublickeyToken can be omitted and be checked in GAC assembly.
 
+## Create and sign an assembly with a strong name by using the Assembly Linker
+
+Open Visual Studio Developer Command Prompt or Visual Studio Developer PowerShell, and enter the following command:
+
+al /out:<assemblyName> <moduleName> /keyfile:<keyfileName>
+
+Where:
+
+assemblyName is the name of the strongly signed assembly (a .dll or .exe file) that Assembly Linker will emit.
+
+moduleName is the name of a .NET Framework code module (a .netmodule file) that includes one or more types. You can create a .netmodule file by compiling your code with the /target:module switch in C# or Visual Basic.
+
+keyfileName is the name of the container or file that contains the key pair. Assembly Linker interprets a relative path in relation to the current directory.
+
+The following example signs the assembly MyAssembly.dll with a strong name by using the key file sgKey.snk.
+
+```cmd
+
+Copy
+al /out:MyAssembly.dll MyModule.netmodule /keyfile:sgKey.snk  
+
+```
