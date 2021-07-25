@@ -14,3 +14,4 @@
 | Toggle breakpoint	      | F9                 |
 | Format document	        | Ctrl+K, Ctrl+D     |
 | Format selection	      | Ctrl+K, Ctrl+F     |
+| Cycle Clipboard Ring    | Ctrl+Shift+V       |
