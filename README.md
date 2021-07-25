@@ -17,7 +17,7 @@
 * [x86 vs x64](x86_vs_x64.md)
 * [Garbage Collection](Garbage_Collection.md)
 * [GAC](GAC.md)
-* Visual Studio Shortcuts
+* [Visual Studio Shortcuts](Visual_Studio_Shortcuts.md)
 * Debugging Techniques
 
 ## C# Tutorial
