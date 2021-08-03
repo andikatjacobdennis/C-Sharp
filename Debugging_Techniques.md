@@ -1,17 +1,3 @@
----
-title: Debugging techniques and tools
-description: "Write better code with less bugs by using Visual Studio to fix exceptions, fix errors, and improve your code"
-ms.custom: ['debug-experiment', 'seodec18']
-ms.date: "02/14/2020"
-ms.topic: "conceptual"
-helpviewer_keywords:
-  - "debugger"
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: jmartens
-ms.workload:
-  - "multiple"
----
 # Debugging techniques and tools to help you write better code
 
 Fixing bugs and errors in your code can be a time-consuming--and sometimes frustrating--task. It takes time to learn how to debug effectively, but a powerful IDE like Visual Studio can make your job a lot easier. An IDE can help you fix errors and debug your code more quickly, and not just that, but it can also help you write better code with fewer bugs. Our aim in this article is to give you a holistic view of the "bug-fixing" process, so you will know when to use the code analyzer, when to use the debugger, how to fix exceptions, and how to code for intent. If you already know you need to use the debugger, see [First look at the debugger](../debugger/debugger-feature-tour.md).
