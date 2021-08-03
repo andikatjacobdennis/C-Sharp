@@ -180,9 +180,9 @@ To fix this error, you'll look at another feature of the IDE, represented by the
 
 The first red squiggle represents a compile-time error. Hover over it and you see the message ```The name `Encoding` does not exist in the current context```.
 
-Notice that this error shows a light bulb icon to the lower left. Along with the screwdriver icon ![screwdriver icon](Resources/Debugging/screwdriver-icon.png), the light bulb icon ![light bulb icon](../ide/media/light-bulb-icon.png) represents Quick Actions that can help you fix or refactor code inline. The light bulb represents issues that you *should* fix. The screwdriver is for issues that you might choose to fix. Use the first suggested fix to resolve this error by clicking **using System.Text** on the left.
+Notice that this error shows a light bulb icon to the lower left. Along with the screwdriver icon ![screwdriver icon](Resources/Debugging/screwdriver-icon.png), the light bulb icon ![light bulb icon](Resources/Debugging/light-bulb-icon.png) represents Quick Actions that can help you fix or refactor code inline. The light bulb represents issues that you *should* fix. The screwdriver is for issues that you might choose to fix. Use the first suggested fix to resolve this error by clicking **using System.Text** on the left.
 
-![Use the light bulb to fix code](../debugger/media/write-better-code-missing-include.png)
+![Use the light bulb to fix code](Resources/Debugging/write-better-code-missing-include.png)
 
 When you click this item, Visual Studio adds the `using System.Text` statement at the top of the *Program.cs* file, and the red squiggle disappears. (When you're not sure what a suggested fix will do, choose the **Preview changes** link on the right before applying the fix.)
 
@@ -192,7 +192,7 @@ The preceding error is a common one that you usually fix by adding a new `using`
 
 There are a few more squiggles to look at in this code. Here, you see a common type conversion error. When you hover over the squiggle, you see that the code is trying to convert a string to an int, which is not supported unless you add explicit code to make the conversion.
 
-![Type conversion error](../debugger/media/write-better-code-conversion-error.png)
+![Type conversion error](Resources/Debugging/write-better-code-conversion-error.png)
 
 Because the code analyzer can't guess your intent, there are no light bulbs to help you out this time. To fix this error, you need to know the intent of the code. In this example, it's not too hard to see that `points` should be a numeric (integer) value, since you are trying to add `points` to `totalpoints`.
 
@@ -214,7 +214,7 @@ The red squiggly lines in the code editor go away.
 
 Next, hover over the green squiggle in the declaration of the `points` data member. The code analyzer tells you the variable is never assigned a value.
 
-![Warning message for unassigned variable](../debugger/media/write-better-code-warning-message.png)
+![Warning message for unassigned variable](Resources/Debugging/write-better-code-warning-message.png)
 
 Typically, this represents a problem that needs to be fixed. However, in the sample app you are in fact storing data in the `points` variable during the deserialization process, and then adding that value to the `totalpoints` data member. In this example, you know the intent of the code and can safely ignore the warning. However, if you want to eliminate the warning, you can replace the following code:
 
@@ -235,11 +235,11 @@ The green squiggle goes away.
 
 When you have fixed all the red squiggles and resolved--or at least investigated--all the green squiggles, you are ready to start the debugger and run the app.
 
-Press **F5** (**Debug > Start Debugging**) or the **Start Debugging** button ![Start Debugging](../debugger/media/dbg-tour-start-debugging.png "Start Debugging") in the Debug toolbar.
+Press **F5** (**Debug > Start Debugging**) or the **Start Debugging** button ![Start Debugging](Resources/Debugging/dbg-tour-start-debugging.png "Start Debugging") in the Debug toolbar.
 
 At this point, the sample app throws a `SerializationException` exception (a runtime error). That is, the app chokes on the data that it is trying to serialize. Because you started the app in debug mode (debugger attached), the debugger's Exception Helper takes you right to the code that threw the exception and gives you a helpful error message.
 
-![A SerializationException occurs](../debugger/media/write-better-code-serialization-exception.png)
+![A SerializationException occurs](Resources/Debugging/write-better-code-serialization-exception.png)
 
 The error message instructs you that the value `4o` cannot be parsed as an integer. So, in this example, you know the data is bad: `4o` should be `40`. However, if you are not in control of the data in a real scenario (say you are getting it from a web service), what do you do about it? How do you fix this?
 
