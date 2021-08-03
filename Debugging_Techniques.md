@@ -294,9 +294,9 @@ For the sample app, fix the `SerializationException` in the `GetJsonData` method
 
 ## Clarify your code intent by using assert
 
-Click the **Restart** ![Restart App](../debugger/media/dbg-tour-restart.png "RestartApp") button in the Debug Toolbar (**Ctrl** + **Shift** + **F5**). This restarts the app in fewer steps. You see the following output in the console window.
+Click the **Restart** ![Restart App](Resources/Debugging/dbg-tour-restart.png "RestartApp") button in the Debug Toolbar (**Ctrl** + **Shift** + **F5**). This restarts the app in fewer steps. You see the following output in the console window.
 
-![Null value in output](../debugger/media/write-better-code-using-assert-null-output.png)
+![Null value in output](Resources/Debugging/write-better-code-using-assert-null-output.png)
 
 You can see something in this output that is not quite right. **name** and **lastname** for the third record are blank!
 
@@ -330,14 +330,14 @@ By adding `assert` statements like this to your functions during the development
 
 By specifying intent in this way, you enforce your requirements. This is a simple and handy method that you can use to surface bugs during development. (`assert` statements are also used as the main element in unit tests.)
 
-Click the **Restart** ![Restart App](../debugger/media/dbg-tour-restart.png "RestartApp") button in the Debug Toolbar (**Ctrl** + **Shift** + **F5**).
+Click the **Restart** ![Restart App](Resources/Debugging/dbg-tour-restart.png "RestartApp") button in the Debug Toolbar (**Ctrl** + **Shift** + **F5**).
 
 > [!NOTE]
 > The `assert` code is active only in a Debug build.
 
 When you restart, the debugger pauses on the `assert` statement, because the expression `users[i].firstname != null` evaluates to `false` instead of `true`.
 
-![Assert resolves to false](../debugger/media/write-better-code-using-assert.png)
+![Assert resolves to false](Resources/Debugging/write-better-code-using-assert.png)
 
 The `assert` error tells you that there's a problem that you need to investigate. `assert` can cover many scenarios where you don't necessarily see an exception. In this example, the user won't see an exception, and a `null` value gets added as `firstname` in your list of records. This may cause problems later on (such as you see in the console output) and might be harder to debug.
 
