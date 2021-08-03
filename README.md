@@ -18,7 +18,7 @@
 * [Garbage Collection](Garbage_Collection.md)
 * [GAC](GAC.md)
 * [Visual Studio Shortcuts](Visual_Studio_Shortcuts.md)
-* Debugging Techniques
+* [Debugging Techniques](Debugging_Techniques.md)
 
 ## C# Tutorial
 
