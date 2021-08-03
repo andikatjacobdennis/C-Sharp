@@ -1,6 +1,6 @@
 # Debugging techniques and tools to help you write better code
 
-Fixing bugs and errors in your code can be a time-consuming--and sometimes frustrating--task. It takes time to learn how to debug effectively, but a powerful IDE like Visual Studio can make your job a lot easier. An IDE can help you fix errors and debug your code more quickly, and not just that, but it can also help you write better code with fewer bugs. Our aim in this article is to give you a holistic view of the "bug-fixing" process, so you will know when to use the code analyzer, when to use the debugger, how to fix exceptions, and how to code for intent. If you already know you need to use the debugger, see [First look at the debugger](../debugger/debugger-feature-tour.md).
+Fixing bugs and errors in your code can be a time-consuming--and sometimes frustrating--task. It takes time to learn how to debug effectively, but a powerful IDE like Visual Studio can make your job a lot easier. An IDE can help you fix errors and debug your code more quickly, and not just that, but it can also help you write better code with fewer bugs. Our aim in this article is to give you a holistic view of the "bug-fixing" process, so you will know when to use the code analyzer, when to use the debugger, how to fix exceptions, and how to code for intent.
 
 In this article, we talk about leveraging the IDE to make your coding sessions more productive. We touch on several tasks, such as:
 
@@ -172,7 +172,7 @@ Before you try to start the sample app and run the debugger, check the code in t
 
 In the sample app, you see several red squiggles that you need to fix, and one green one that you'll look at. Here is the first error.
 
-![Error showing as a red squiggle](resource/debugging/write-better-code-red-squiggle.png)
+![Error showing as a red squiggle](Resources/Debugging/write-better-code-red-squiggle.png)
 
 To fix this error, you'll look at another feature of the IDE, represented by the light bulb icon.
 
@@ -180,7 +180,7 @@ To fix this error, you'll look at another feature of the IDE, represented by the
 
 The first red squiggle represents a compile-time error. Hover over it and you see the message ```The name `Encoding` does not exist in the current context```.
 
-Notice that this error shows a light bulb icon to the lower left. Along with the screwdriver icon ![screwdriver icon](../ide/media/screwdriver-icon.png), the light bulb icon ![light bulb icon](../ide/media/light-bulb-icon.png) represents Quick Actions that can help you fix or refactor code inline. The light bulb represents issues that you *should* fix. The screwdriver is for issues that you might choose to fix. Use the first suggested fix to resolve this error by clicking **using System.Text** on the left.
+Notice that this error shows a light bulb icon to the lower left. Along with the screwdriver icon ![screwdriver icon](Resources/Debugging/screwdriver-icon.png), the light bulb icon ![light bulb icon](../ide/media/light-bulb-icon.png) represents Quick Actions that can help you fix or refactor code inline. The light bulb represents issues that you *should* fix. The screwdriver is for issues that you might choose to fix. Use the first suggested fix to resolve this error by clicking **using System.Text** on the left.
 
 ![Use the light bulb to fix code](../debugger/media/write-better-code-missing-include.png)
 
