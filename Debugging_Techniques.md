@@ -172,7 +172,7 @@ Before you try to start the sample app and run the debugger, check the code in t
 
 In the sample app, you see several red squiggles that you need to fix, and one green one that you'll look at. Here is the first error.
 
-![Error showing as a red squiggle](../debugger/media/write-better-code-red-squiggle.png)
+![Error showing as a red squiggle](resource/debugging/write-better-code-red-squiggle.png)
 
 To fix this error, you'll look at another feature of the IDE, represented by the light bulb icon.
 
