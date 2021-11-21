@@ -23,7 +23,6 @@
 ## C# Tutorial
 
 * [Comments](Comments.md)
-* XML documentation tags
 * Variables
 * Data Types
 * Nullable Types
