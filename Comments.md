@@ -20,7 +20,6 @@ Console.WriteLine("Hello World!");
 ```csharp
 /// <summary>
 /// Enter description for method someMethod.
-/// ID string generated is "M:MyNamespace.MyClass.someMethod(System.String,System.Int32@,System.Void*)".
 /// <see cref="Method(string[])"/>
 /// </summary>
 /// <param name="str">Describe parameter.</param>
