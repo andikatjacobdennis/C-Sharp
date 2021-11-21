@@ -22,7 +22,7 @@
 
 ## C# Tutorial
 
-* Comments
+* [Comments](Comments.md)
 * XML documentation tags
 * Variables
 * Data Types
