@@ -23,6 +23,7 @@
 ## C# Tutorial
 
 * [Comments](Comments.md)
+* [Type](Type.md)
 * Variables
 * Data Types
 * Nullable Types
