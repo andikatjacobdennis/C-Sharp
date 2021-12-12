@@ -30,6 +30,9 @@ float f1 = 35e3F;
 
 Literals
 ========
+
 var decimalLiteral = 42;
+
 var hexLiteral = 0x2A;
+
 var binaryLiteral = 0b_0010_1010;
