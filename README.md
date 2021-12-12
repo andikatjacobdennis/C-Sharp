@@ -24,7 +24,7 @@
 
 * [Comments](Comments.md)
 * [Type](Type.md)
-* Variables
+* [Variables](Variables.md)
 * Data Types
 * Nullable Types
 * Enum
