@@ -27,7 +27,7 @@
 * [Variables](Variables.md)
 * [Data Types](DataTypes.md)
 * [Nullable Types](NullableTypes.md)
-* Enum
+* [Enum](Enum.md)
 * Flag Enum
 * Operators
 * Operator Presidence
