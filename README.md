@@ -28,7 +28,7 @@
 * [Data Types](DataTypes.md)
 * [Nullable Types](NullableTypes.md)
 * [Enum](Enum.md)
-* Flag Enum
+* [Enumeration types as bit flags](EnumerationTypesAsBitFlags.md)
 * Operators
 * Operator Presidence
 * Keywords
