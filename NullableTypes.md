@@ -45,6 +45,12 @@ Stack Trace:
    at Program.Main() :line 9
 ```
     
+## Shorthand
+
+```csharp
+int? i = null;
+```
+    
 ## Nullable Helper
     
 ```csharp
